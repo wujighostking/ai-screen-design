@@ -12,108 +12,33 @@ catalogs:
     '@commitlint/config-conventional':
       specifier: ^21.2.0
       version: 21.2.0
-    '@nestjs/cli':
-      specifier: ^11.0.23
-      version: 11.0.23
-    '@nestjs/common':
-      specifier: ^11.1.28
-      version: 11.1.28
-    '@nestjs/core':
-      specifier: ^11.1.28
-      version: 11.1.28
-    '@nestjs/platform-express':
-      specifier: ^11.1.28
-      version: 11.1.28
-    '@nestjs/schematics':
-      specifier: ^11.1.0
-      version: 11.1.0
-    '@nestjs/testing':
-      specifier: ^11.1.28
-      version: 11.1.28
-    '@tsconfig/node24':
-      specifier: ^24.0.4
-      version: 24.0.4
-    '@types/express':
-      specifier: ^5.0.6
-      version: 5.0.6
     '@types/node':
       specifier: ^26.1.1
       version: 26.1.1
-    '@vitejs/plugin-vue':
-      specifier: ^6.0.7
-      version: 6.0.7
-    '@vitejs/plugin-vue-jsx':
-      specifier: ^5.1.6
-      version: 5.1.6
-    '@vue/tsconfig':
-      specifier: ^0.9.1
-      version: 0.9.1
     element-plus:
       specifier: ^2.14.2
       version: 2.14.2
     lint-staged:
       specifier: ^17.0.8
       version: 17.0.8
-    npm-run-all2:
-      specifier: ^9.0.2
-      version: 9.0.2
     oxfmt:
       specifier: ^0.58.0
       version: 0.58.0
     oxlint:
       specifier: ^1.73.0
       version: 1.73.0
-    reflect-metadata:
-      specifier: ^0.2.2
-      version: 0.2.2
-    rxjs:
-      specifier: ^7.8.2
-      version: 7.8.2
     sass:
       specifier: ^1.101.0
       version: 1.101.0
     simple-git-hooks:
       specifier: ^2.13.1
       version: 2.13.1
-    source-map-support:
-      specifier: ^0.5.21
-      version: 0.5.21
-    ts-loader:
-      specifier: ^9.6.2
-      version: 9.6.2
-    ts-node:
-      specifier: ^10.9.2
-      version: 10.9.2
-    tsconfig-paths:
-      specifier: ^4.2.0
-      version: 4.2.0
     turbo:
       specifier: ^2.10.4
       version: 2.10.4
     typescript:
       specifier: ^6.0.3
       version: 6.0.3
-    unocss:
-      specifier: ^66.7.5
-      version: 66.7.5
-    unplugin-auto-import:
-      specifier: ^21.0.0
-      version: 21.0.0
-    unplugin-vue-components:
-      specifier: ^32.1.0
-      version: 32.1.0
-    vite:
-      specifier: ^8.1.3
-      version: 8.1.3
-    vue:
-      specifier: ^3.5.39
-      version: 3.5.39
-    vue-router:
-      specifier: ^5.1.0
-      version: 5.1.0
-    vue-tsc:
-      specifier: ^3.3.7
-      version: 3.3.7
 
 importers:
 
@@ -153,12 +78,6 @@ importers:
       typescript:
         specifier: 'catalog:'
         version: 6.0.3
-      unplugin-auto-import:
-        specifier: 'catalog:'
-        version: 21.0.0(@vueuse/core@14.3.0(vue@3.5.39(typescript@6.0.3)))
-      unplugin-vue-components:
-        specifier: 'catalog:'
-        version: 32.1.0(rolldown@1.1.5)(vite@8.1.3(@types/node@26.1.1)(jiti@2.7.0)(sass@1.101.0)(terser@5.48.0)(yaml@2.9.0))(vue@3.5.39(typescript@6.0.3))(webpack@5.106.2)
 
   packages/ai-screen-design:
     dependencies:

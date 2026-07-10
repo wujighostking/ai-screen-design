@@ -32,9 +32,7 @@
     "sass": "catalog:",
     "simple-git-hooks": "catalog:",
     "turbo": "catalog:",
-    "typescript": "catalog:",
-    "unplugin-auto-import": "catalog:",
-    "unplugin-vue-components": "catalog:"
+    "typescript": "catalog:"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpx lint-staged",
